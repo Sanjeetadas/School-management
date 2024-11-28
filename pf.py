@@ -1,7 +1,7 @@
 import mysql.connector as myc
 
 # Connect to MySQL
-mydb = myc.connect(host='localhost', user='root', password='s20120148829', charset='utf8')
+mydb = myc.connect(host='localhost', user='root', password='', charset='utf8')
 mycursor = mydb.cursor()
 
 # Create Database and Tables
